@@ -1,0 +1,59 @@
+.chart-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding:20px;
+}
+.chart-item{
+    background: #fff;
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius: 8px;
+    
+}
+.add-expense-form{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.add-expense-form input, .add-expense-form button{
+    flex:1;
+    padding:10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+.add-expense-form button{
+    background-color: #28a745;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.error{
+    color:red;
+
+}
+
+ul{
+    list-style-type: none;
+    padding:0
+}
+
+ul li{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+ul li button{
+    padding:5px 10px;
+    font-size: 14px;
+    color:#fff;
+    background-color: #007bff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
